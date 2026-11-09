@@ -29,7 +29,7 @@
 #define LPC_TZ_POSIX "EST5EDT,M3.2.0,M11.1.0"
 
 // 'F' or 'C'
-#define LPC_TEMP_UNIT 'F'
+#define LPC_TEMP_UNIT 'C'
 
 // 1 = 2:30 PM, 0 = 14:30
-#define LPC_CLOCK_12H 1
+#define LPC_CLOCK_12H 0

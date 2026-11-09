@@ -5,8 +5,8 @@
 #endif
 
 // Defaults apply when include/secrets.h does not override them.
-// US Eastern is the default clock because this project was started on a
-// computer set to UTC-5. Change it in include/secrets.h if you live elsewhere.
+// Pittsburgh uses US Eastern time. Temperature is Celsius.
+// The clock uses 24-hour time, such as 20:26.
 
 #ifndef LPC_WIFI_SSID
 #define LPC_WIFI_SSID ""
@@ -25,11 +25,11 @@
 #endif
 
 #ifndef LPC_TEMP_UNIT
-#define LPC_TEMP_UNIT 'F'
+#define LPC_TEMP_UNIT 'C'
 #endif
 
 #ifndef LPC_CLOCK_12H
-#define LPC_CLOCK_12H 1
+#define LPC_CLOCK_12H 0
 #endif
 
 #define LPC_PROJECT_NAME "Living Pixel Companion"

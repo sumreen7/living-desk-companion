@@ -26,13 +26,14 @@ cd /Users/fathimasumreen/DIY/living-pixel-companion
 cp include/secrets.example.h include/secrets.h
 ```
 
-Edit `include/secrets.h`: Wi-Fi name, Wi-Fi password, and city. The password stays on your Mac. That file is listed in `.gitignore`.
+Edit `include/secrets.h`: Wi-Fi name, Wi-Fi password, and city. The password stays on your Mac. That file is listed in `.gitignore`. Do not put the password in `secrets.example.h`. That template is published with the rest of the code.
 
-Defaults already in the program, change them in `secrets.h` if they are wrong:
+Settings for this desk:
 
+- City: Pittsburgh
 - Timezone: US Eastern
-- Temperature: Fahrenheit
-- Clock: 12-hour, with AM/PM
+- Temperature: Celsius
+- Clock: 24-hour, such as 20:26
 
 Install PlatformIO (`brew install platformio`, or the PlatformIO extension in Cursor).
 

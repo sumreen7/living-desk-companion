@@ -12,13 +12,9 @@ cd /Users/fathimasumreen/DIY/living-pixel-companion
 cp include/secrets.example.h include/secrets.h
 ```
 
-3. Open `include/secrets.h` and fill in:
-   - Wi-Fi name
-   - Wi-Fi password
-   - City
-   - Confirm the timezone, temperature unit, and 12-hour clock
+3. Open `include/secrets.h` and fill in the Wi-Fi name, Wi-Fi password, and city.
 
-`include/secrets.h` is not uploaded to GitHub. Type the password into that file. Do not paste the password into the chat.
+`include/secrets.h` is not uploaded to GitHub. Type the password into that file only. `secrets.example.h` is the published template, so leave its password line empty. Do not paste the password into the chat.
 
 ### Wi-Fi
 
@@ -36,9 +32,7 @@ If several places share the city's name, write the region as well: `London, Cana
 
 ### Clock
 
-The default timezone is US Eastern (`EST5EDT,M3.2.0,M11.1.0`), because this project was started on a computer set to UTC−5. That covers New York, Toronto, and Detroit. Other zones are listed in `include/secrets.example.h`.
-
-Temperature defaults to Fahrenheit. The clock defaults to `2:30 PM`. Both are one line in `secrets.h`.
+This desk is set for Pittsburgh, US Eastern time, Celsius, and a 24-hour clock (`20:26`). Other time zones are listed in `include/secrets.example.h`.
 
 There is no clock battery. Each time you unplug the gadget, the next plug-in needs Wi-Fi once. After that it keeps time until power is removed.
 
